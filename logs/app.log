@@ -1,0 +1,106 @@
+2026-08-24T23:10:20.749+02:00  INFO 3436 --- [fintrack] [main] com.finance.FintrackApplication          : Starting FintrackApplication using Java 25.0.1 with PID 3436 (C:\MyData\Workspace\my-java\fintrack\target\classes started by kshit in C:\MyData\Workspace\my-java\fintrack)
+2026-08-24T23:10:20.755+02:00  INFO 3436 --- [fintrack] [main] com.finance.FintrackApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-08-24T23:10:20.887+02:00  INFO 3436 --- [fintrack] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file C:\MyData\Workspace\my-java\fintrack\compose.yaml
+2026-08-24T23:10:23.293+02:00  INFO 3436 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Starting 
+2026-08-24T23:10:23.814+02:00  INFO 3436 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Started 
+2026-08-24T23:10:23.815+02:00  INFO 3436 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Waiting 
+2026-08-24T23:10:24.323+02:00  INFO 3436 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Healthy 
+2026-08-24T23:10:28.943+02:00  INFO 3436 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24T23:10:29.542+02:00  INFO 3436 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 481 ms. Found 1 JPA repository interface.
+2026-08-24T23:10:32.115+02:00  INFO 3436 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-24T23:10:32.684+02:00  INFO 3436 --- [fintrack] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f87607c
+2026-08-24T23:10:32.692+02:00  INFO 3436 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-24T23:10:32.843+02:00  INFO 3436 --- [fintrack] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24T23:10:33.071+02:00  INFO 3436 --- [fintrack] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-08-24T23:10:34.687+02:00  INFO 3436 --- [fintrack] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24T23:10:35.097+02:00  INFO 3436 --- [fintrack] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://127.0.0.1:51341/mydatabase?ApplicationName=fintrack]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.6
+	Default catalog/schema: mydatabase/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24T23:10:37.092+02:00  INFO 3436 --- [fintrack] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24T23:10:37.105+02:00  INFO 3436 --- [fintrack] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:10:38.302+02:00  INFO 3436 --- [fintrack] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24T23:10:39.287+02:00  INFO 3436 --- [fintrack] [main] com.finance.FintrackApplication          : Started FintrackApplication in 19.474 seconds (process running for 20.249)
+2026-08-24T23:10:39.319+02:00  INFO 3436 --- [fintrack] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:10:39.328+02:00  INFO 3436 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-24T23:10:39.341+02:00  INFO 3436 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-24T23:19:01.675+02:00  INFO 29612 --- [fintrack] [main] com.finance.FintrackApplication          : Starting FintrackApplication using Java 25.0.1 with PID 29612 (C:\MyData\Workspace\my-java\fintrack\target\classes started by kshit in C:\MyData\Workspace\my-java\fintrack)
+2026-08-24T23:19:01.680+02:00  INFO 29612 --- [fintrack] [main] com.finance.FintrackApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-08-24T23:19:01.807+02:00  INFO 29612 --- [fintrack] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file C:\MyData\Workspace\my-java\fintrack\compose.yaml
+2026-08-24T23:19:12.696+02:00  INFO 29612 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Starting 
+2026-08-24T23:19:13.045+02:00  INFO 29612 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Started 
+2026-08-24T23:19:13.045+02:00  INFO 29612 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Waiting 
+2026-08-24T23:19:13.555+02:00  INFO 29612 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Healthy 
+2026-08-24T23:19:15.638+02:00  INFO 29612 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24T23:19:15.821+02:00  INFO 29612 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+2026-08-24T23:19:17.342+02:00  INFO 29612 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-24T23:19:18.110+02:00  INFO 29612 --- [fintrack] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@500051c5
+2026-08-24T23:19:18.128+02:00  INFO 29612 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-24T23:19:18.282+02:00  INFO 29612 --- [fintrack] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24T23:19:18.435+02:00  INFO 29612 --- [fintrack] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-08-24T23:19:19.422+02:00  INFO 29612 --- [fintrack] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24T23:19:19.709+02:00  INFO 29612 --- [fintrack] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://127.0.0.1:64295/mydatabase?ApplicationName=fintrack]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.6
+	Default catalog/schema: mydatabase/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24T23:19:21.682+02:00  INFO 29612 --- [fintrack] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24T23:19:21.698+02:00  INFO 29612 --- [fintrack] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:19:22.678+02:00  INFO 29612 --- [fintrack] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24T23:19:23.380+02:00  INFO 29612 --- [fintrack] [main] com.finance.FintrackApplication          : Started FintrackApplication in 22.686 seconds (process running for 23.469)
+2026-08-24T23:19:23.405+02:00  INFO 29612 --- [fintrack] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:19:23.412+02:00  INFO 29612 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-24T23:19:23.428+02:00  INFO 29612 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-24T23:22:18.380+02:00  INFO 29016 --- [fintrack] [main] com.finance.FintrackApplication          : Starting FintrackApplication using Java 25.0.1 with PID 29016 (C:\MyData\Workspace\my-java\fintrack\target\classes started by kshit in C:\MyData\Workspace\my-java\fintrack)
+2026-08-24T23:22:18.387+02:00  INFO 29016 --- [fintrack] [main] com.finance.FintrackApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-08-24T23:22:18.531+02:00  INFO 29016 --- [fintrack] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file C:\MyData\Workspace\my-java\fintrack\compose.yaml
+2026-08-24T23:22:20.970+02:00  INFO 29016 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Starting 
+2026-08-24T23:22:21.444+02:00  INFO 29016 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Started 
+2026-08-24T23:22:21.445+02:00  INFO 29016 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Waiting 
+2026-08-24T23:22:22.005+02:00  INFO 29016 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Healthy 
+2026-08-24T23:22:25.870+02:00  INFO 29016 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24T23:22:26.093+02:00  INFO 29016 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interface.
+2026-08-24T23:22:28.403+02:00  INFO 29016 --- [fintrack] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24T23:22:28.453+02:00  INFO 29016 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-24T23:22:28.869+02:00  INFO 29016 --- [fintrack] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48b3b1b8
+2026-08-24T23:22:28.879+02:00  INFO 29016 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-24T23:22:30.925+02:00  INFO 29016 --- [fintrack] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:22:31.479+02:00  INFO 29016 --- [fintrack] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24T23:22:32.029+02:00  INFO 29016 --- [fintrack] [main] com.finance.FintrackApplication          : Started FintrackApplication in 14.711 seconds (process running for 15.503)
+2026-08-24T23:22:32.051+02:00  INFO 29016 --- [fintrack] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:22:32.058+02:00  INFO 29016 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-24T23:22:32.065+02:00  INFO 29016 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-24T23:37:20.697+02:00  INFO 14396 --- [fintrack] [main] com.finance.FintrackApplication          : Starting FintrackApplication using Java 25.0.1 with PID 14396 (C:\MyData\Workspace\my-java\fintrack\target\classes started by kshit in C:\MyData\Workspace\my-java\fintrack)
+2026-08-24T23:37:20.704+02:00  INFO 14396 --- [fintrack] [main] com.finance.FintrackApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-08-24T23:37:20.840+02:00  INFO 14396 --- [fintrack] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file C:\MyData\Workspace\my-java\fintrack\compose.yaml
+2026-08-24T23:37:32.433+02:00  INFO 14396 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Starting 
+2026-08-24T23:37:32.781+02:00  INFO 14396 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Started 
+2026-08-24T23:37:32.782+02:00  INFO 14396 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Waiting 
+2026-08-24T23:37:33.300+02:00  INFO 14396 --- [fintrack] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container fintrack-postgres-1 Healthy 
+2026-08-24T23:37:37.727+02:00  INFO 14396 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24T23:37:38.168+02:00  INFO 14396 --- [fintrack] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 346 ms. Found 1 JPA repository interface.
+2026-08-24T23:37:42.064+02:00  INFO 14396 --- [fintrack] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24T23:37:42.166+02:00  INFO 14396 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-24T23:37:43.032+02:00  INFO 14396 --- [fintrack] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39a3984c
+2026-08-24T23:37:43.042+02:00  INFO 14396 --- [fintrack] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-24T23:37:45.112+02:00  INFO 14396 --- [fintrack] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:37:45.608+02:00  INFO 14396 --- [fintrack] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24T23:37:46.488+02:00  INFO 14396 --- [fintrack] [main] com.finance.FintrackApplication          : Started FintrackApplication in 26.961 seconds (process running for 27.764)
+2026-08-24T23:37:46.510+02:00  INFO 14396 --- [fintrack] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T23:37:46.517+02:00  INFO 14396 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-24T23:37:46.526+02:00  INFO 14396 --- [fintrack] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
