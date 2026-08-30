@@ -27,5 +27,5 @@ FinTrack is a simple and efficient personal finance tracking application that he
 
 ---
 
-## Project Structure
+<!--  ## Project Structure >
 
